@@ -37,22 +37,22 @@ the page is out of the editing zone. The same logic applies to the footer or the
 
 While implementing the page please follow this checklist:
 
-- [ ] Use as much as possible bootstrap for the layout of elements in the page.
-- [ ] Use as much as possible of the css defined in the `qc.default.css`.
-- [ ] CSS classes are lowercase words separated by `-`. Example `my-super-class`.
-- [ ] For large css implementations. For example landing pages, please write all the style in a new `.scss` file.
-- [ ] View ports: (We aim to have responsive page across all the view sizes but this is a good start)
-    - [ ] Works on 4k full screen.
-    - [ ] Works on 1900px screen view.
-    - [ ] Works on 1200px screen view.
-    - [ ] Transition to mobile is smooth.
-    - [ ] Works on mobile view.
-- [ ] Verified using a browser ruler that new elements align with existent view components.
-- [ ] Aligning Tables:
-    - [ ] Numbers and money are right aligned, preferable in a monospaced font.
-    - [ ] Attributes like: types, status, in general text in columns are left aligned.
-- [ ] Font coherence, with other elements of the same importance. Size, Color, family, weight
-- [ ] Avoid using `!important` in css if not, please justify why you are using it.
-- [ ] All clickable elements have a hover effect (background, font color and pointer), if it is not clear what action
+- [x] Use as much as possible bootstrap for the layout of elements in the page.
+- [x] Use as much as possible of the css defined in the `qc.default.css`.
+- [x] CSS classes are lowercase words separated by `-`. Example `my-super-class`.
+- [x] For large css implementations. For example landing pages, please write all the style in a new `.scss` file.
+- [x] View ports: (We aim to have responsive page across all the view sizes but this is a good start)
+    - [x] Works on 4k full screen.
+    - [x] Works on 1900px screen view.
+    - [x] Works on 1200px screen view.
+    - [x] Transition to mobile is smooth.
+    - [x] Works on mobile view.
+- [x] Verified using a browser ruler that new elements align with existent view components.
+- [x] Aligning Tables:
+    - [x] Numbers and money are right aligned, preferable in a monospaced font.
+    - [x] Attributes like: types, status, in general text in columns are left aligned.
+- [x] Font coherence, with other elements of the same importance. Size, Color, family, weight
+- [x] Avoid using `!important` in css if not, please justify why you are using it.
+- [x] All clickable elements have a hover effect (background, font color and pointer), if it is not clear what action
   should do please ask.
-- [ ] Modals can be escaped using esc button or clicking outside the modal.
+- [x] Modals can be escaped using esc button or clicking outside the modal.
